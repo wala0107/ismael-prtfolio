@@ -1,0 +1,53 @@
+@import './header'
+@import './nav'
+@import './about'
+@import './services'
+@import './savoirEtre'
+@import './skills'
+@import './formulaire'
+@import './media'
+@import './footer'
+@import './projects'
+
+body
+    font-family: "Raleway", san-serif
+
+
+.sticky 
+    position: fixed
+    top: 0
+    width: 100% 
+    background-color: white 
+    color: black
+    z-index: 40
+    transition: 1s
+    box-shadow: 0px 5px 7px grey
+    
+.trans 
+    position: fixed
+    top: -100px
+    width: 100% 
+    z-index: 40
+    transition: 1s
+
+html 
+    scroll-behavior: smooth
+
+.conInfo
+    
+    .meme 
+        display: flex
+        justify-content: center
+.bordTop 
+    border-width: 3px
+    border-style: solid
+    border-image: linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%
+.bordSide
+    border-width: 3px
+    border-style: solid
+    border-image: linear-gradient(to bottom, black  , rgba(0, 0, 0, 0)) 1 100%
+
+button:focus 
+    outline: none
+a:focus 
+    outline: none
