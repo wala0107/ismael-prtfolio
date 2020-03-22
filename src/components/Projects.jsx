@@ -40,9 +40,9 @@ const Projects = ()=>{
                 <h2>Site Rosa</h2>
                 <p>Restauration</p>
               </div>
-              <a href="">
+        
               <img className="" src={projet2} alt="Image" className="img-fluid" />
-              </a>
+           
             </a>
           </div>
           <div className="col-sm-4 col-md-4 col-lg-4" data-aos="fade" data-aos-delay={300}>
@@ -52,11 +52,10 @@ const Projects = ()=>{
                 <p>Restauration</p>
               </div>
 
-              <a href="
-              ">
+           
               <img className="" src={projet3} alt="Image" className="img-fluid" />
 
-              </a>
+            
             </a>
           </div>
           <div className="col-sm-4 col-md-4 col-lg-4" data-aos="fade" data-aos-delay={400}>
@@ -69,7 +68,7 @@ const Projects = ()=>{
             </a>
           </div>
           <div className="col-sm-4 col-md-4 col-lg-4" data-aos="fade" data-aos-delay={400}>
-            <a href="portfolio-single.html" className="work-thumb">
+            <a href="https://wala0107.github.io/travelix-japon/" className="work-thumb">
               <div className="work-text">
                 <h2>I LOVE JAPON</h2>
                 <p>Travel</p>
@@ -80,8 +79,8 @@ const Projects = ()=>{
           <div className="col-sm-4 col-md-4 col-lg-4" data-aos="fade" data-aos-delay={400}>
             <a href="portfolio-single.html" className="work-thumb">
               <div className="work-text">
-                <h2></h2>
-                <p>Business</p>
+                <h2>site One-Piece</h2>
+                <p>manga</p>
               </div>
               <img className="" src={projet6} alt="Image" className="img-fluid" />
             </a>
