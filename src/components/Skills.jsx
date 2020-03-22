@@ -23,12 +23,16 @@ const Skills = ()=>{
     return(
         
     <Fragment>
+
+      <section className="competence">
+
+ 
       <h2 className="my-5 text-center" >Mes Compétences</h2>
        <div className="skills">
 
   <div className="charts">
     <div className="chart chart--dev">
-      <span className={animIcon}>Development</span>
+      <span className={animIcon}>Compétences en développement</span>
       <ul className="chart--horiz">
         <li className={animIcon2} id='html'    >
           <span className="chart__label">
@@ -45,11 +49,7 @@ const Skills = ()=>{
             JavaScript
           </span>
         </li>
-        <li className={animIcon2} id="AngularJs"   >
-          <span className="chart__label">
-            AngularJS
-          </span>
-        </li>
+     
         <li className={animIcon2} id="ReactJS"     >
           <span className="chart__label">
             ReactJS
@@ -60,36 +60,14 @@ const Skills = ()=>{
             jQuery
           </span>
         </li>
-        <li className={animIcon2} id="nodejs"      >
-          <span className="chart__label">
-            NodeJS
-          </span>
-        </li>
-        <li className={animIcon2} id="grunt"   >
-          <span className="chart__label">
-            Grunt / Gulp / Webpack
-          </span>
-        </li>
-        <li className={animIcon2} id="net"     >
-          <span className="chart__label">
-            .NET
-          </span>
-        </li>
-        <li className={animIcon2} id="umbraco"     >
-          <span className="chart__label">
-            Umbraco
-          </span>
-        </li>
-        <li className={animIcon2} id="sitecore"    >
-          <span className="chart__label">
-            Sitecore
-          </span>
-        </li>
+      
+  
+   
       </ul>
     </div>
     
     <div className="chart chart--prod">
-      <span className="chart__title">Productivity</span>
+      <span className="chart__title"></span>
       <ul className="chart--horiz">
       <li className={animIcon2} id="git"   >
         <span className="chart__label">
@@ -105,7 +83,8 @@ const Skills = ()=>{
     </div>
 
     <div className="chart chart--design">
-      <span className="chart__title">Design</span>
+      <span className="chart__title">Compétences en conception graphique
+</span>
       <ul className="chart--horiz">
       <li className={animIcon2} id="ph"    >
         <span className="chart__label">
@@ -128,7 +107,7 @@ const Skills = ()=>{
 
 </div>
 
-   
+   </section>
    
     </Fragment>
 

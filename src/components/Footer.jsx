@@ -26,7 +26,7 @@ const Footer = ()=>{
                                 <div className="icon">
                                     <i className="fa fa-envelope"></i>
                                     <h4>Email</h4>
-                                    <h3>ismaelazd@hotmail.com</h3>
+                                    <h3>wala.smirani@hotmail.com</h3>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ const Footer = ()=>{
                         <div className="col-md-12">
                             <hr/>
                             <p className="copy pt-3">
-                                Ismael © 2018. All Right Reserved, Designed By Ismael.
+                                Wala © 2018. All Right Reserved, Designed By Wala and Ismael.
                             </p>
                         </div>
                     </div>

@@ -4,7 +4,8 @@
 
 .header {
   height: 100vh;
-  background-color: #222222;
+  background-image: url(../img/rail2.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -14,12 +15,12 @@
   text-align: center;
   padding-top: 18vh;
   font-size: 200%;
-  color: #ffffff;
+  color: black;
 }
 .header .banner-caption h1 {
   font-size: 88px;
   font-weight: 900;
-  color: #fff;
+  color: purple;
 }
 .header .banner-caption p {
   font-size: 24px;
@@ -54,34 +55,12 @@
     height: 80px;
   }
 }
-@-webkit-keyframes bounce {
-  from, 20%, 53%, 80%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  40%, 43% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0);
-  }
-  70% {
-    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0);
-  }
-  90% {
-    -webkit-transform: translate3d(0, -4px, 0);
-    transform: translate3d(0, -4px, 0);
-  }
-}
+
 .navbar-brand {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 900;
   z-index: 3;
+  color:purple
 }
 
 .collapse {
@@ -95,7 +74,7 @@
 }
 .collapse .navbar-nav li a {
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 25px;
 }
 
 nav.fixed-top .nav-item .nav-link:hover:before {
@@ -118,7 +97,9 @@ nav.navbar .nav-item .nav-link:hover:before {
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
-
+.conInfo{
+  background-color: lightpink;
+}
 #about {
   padding-top: 8%;
   padding-bottom: 8%;
@@ -171,10 +152,11 @@ nav.navbar .nav-item .nav-link:hover:before {
 }
 
 .services {
-  background-color: #eeeeee;
+  background-color:pink;
 }
 .services .container h2 {
   text-transform: uppercase;
+  color: purple;
 }
 .services .container .row .service-item {
   text-align: center;
@@ -210,7 +192,7 @@ nav.navbar .nav-item .nav-link:hover:before {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-image: url("../img/rail.jpg");
+  background-image: url("../img/rail2.jpg");
 }
 .savoirEtre p {
   font-size: 16px;
@@ -358,7 +340,7 @@ h2 {
 }
 .media .social-btn li a:hover i {
   background: linear-gradient(45deg, #b6b6b6, #202020);
-  -webkit-background-clip: text;
+
   -webkit-text-fill-color: transparent;
   transform: scale(2.2);
 }
@@ -457,7 +439,11 @@ h2 {
 }
 
 .projects {
-  background-color: #e2e2e27a;
+  color: BLACK;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/rail2.jpg");
 }
 .projects .container .row .col .portfolio-filter li {
   display: inline-block;
@@ -521,5 +507,200 @@ button:focus {
 a:focus {
   outline: none;
 }
+.fa-mobile:before {
+  content: "\f10b";
+ 
+  margin-top: 5px;
+  font-size: 3rem;
+  color: #6f42c1;
+}
+
+.fa-desktop:before {
+    content: "\f108";
+     
+  margin-top: 5px;
+  font-size: 3rem;
+  color: #6f42c1;
+}
+.fa-paper-plane:before {
+
+     
+  margin-top: 5px;
+  font-size: 3rem;
+  color: #6f42c1;
+}
+.service .icon {
+  font-size: 3rem;
+  color: #6f42c1
+}
+
+.service h3 {
+  font-size: 1.2rem;
+  font-weight: 400
+}
+
+.img-1,
+.img-2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  bottom: 0;
+  background-size: cover;
+  background-position: center center
+}
+
+.img-2 {
+  right: 0;
+  left: auto !important
+}
+
+.heading {
+  font-size: 3rem;
+  line-height: 1
+}
+
+.position-relative {
+  overflow: hidden;
+  position: relative !important
+}
+
+.custom-breadcrumbs {
+  font-size: 1rem !important
+}
+
+.custom-breadcrumbs a {
+  display: inline-block;
+  font-size: 1rem !important;
+  text-decoration: underline;
+  color: #fff !important
+}
+
+.padding-tb {
+  padding-top: 4rem;
+  padding-bottom: 4rem
+}
+
+.img-dotted-bg {
+  position: relative
+}
+
+.img-dotted-bg:after {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  background: url("") repeat;
+  top: -50px;
+  left: -50px;
+  width: 200px;
+  height: 400px
+}
+
+.img-dotted-bg .img-absolute {
+  position: absolute;
+  max-width: 300px;
+  bottom: -20px;
+  right: -20px
+}
+
+.work-thumb {
+  display: block;
+  position: relative
+}
+
+.work-thumb img {
+  border: 10px solid #fff
+}
+
+.work-thumb .work-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  margin-top: 20px;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.work-thumb .work-text h2 {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 1.5rem
+}
+
+.work-thumb .work-text p {
+  color: rgba(255, 255, 255, 0.5)
+}
+
+.work-thumb:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  opacity: 0;
+  visibility: hidden;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px
+}
+
+.work-thumb:hover .work-text {
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible
+}
+
+.work-thumb:hover:before {
+  opacity: 1;
+  visibility: visible
+}
+
+.divider {
+  width: 70px;
+  height: 6px;
+  background: #000;
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.competence{
+  background-color: white;
+}
+.services .container .row .service-item .icon {
+  border: 1px solid #e3e3e3;
+  transition: 0.5s all ease;
+  color: #222;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-radius: 50%;
+  line-height: 78px;
+  height: 80px;
+  width: 80px;
+}
+.quick-contact {
+  color: #000
+}
+
+.block-fixed {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0
+}
+
 
 /*# sourceMappingURL=style.css.map */

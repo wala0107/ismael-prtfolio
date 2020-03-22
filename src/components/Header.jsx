@@ -9,7 +9,7 @@ const Header = ()=>{
        <section className="header">
            <Nav/>                                  
            <div className="banner-caption">
-                <h1>Hi! I'm Ismael.</h1>
+                <h1>Hi! I'm Wala.</h1>
                 <p className="cd-headline clip mt-30">
                     <span>Creative Designer &amp; Developer located in Brussels.</span><br/>
                     <span className="blc">Specialized in</span>

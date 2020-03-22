@@ -25,8 +25,8 @@ const Services = ()=>{
                 <div className="row ">
                     <div className="col">
                         <div className="heading text-center">
-                            <h6>Services</h6>
-                            <h2>What I Can Do</h2>
+                            <h1>Services</h1>
+                            <h2>Des prestations adaptées à vos besoins</h2>
                         </div>
                     </div>
                 </div>
@@ -35,20 +35,26 @@ const Services = ()=>{
                         
                         <div className="service-item">
                             <span className="icon">
-                                <i className="fa fa-laptop"></i>
+                                <i class="fas fa-paper-plane" ></i>
+
+                              
                             </span>
                             <h4>Web Design</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                            <p>Logos, templates Web, plaquettes publicitaires,
+cartes de visite, newsletters....</p>
                         </div>
                     </div>
                     <div className={animIcon}>
                         
                         <div className="service-item">
                             <span className="icon">
-                                <i className="fas fa-cogs"></i>
+                            <i class="fa fa-desktop" aria-hidden="true"></i>
                             </span>
                             <h4>Web Development</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                            <p>Des intégrations (X)HTML / CSS
+respectueuses des standards du Web.
+
+.</p>
                         </div>
                     </div>
                     <div className={animIcon}>
@@ -56,41 +62,16 @@ const Services = ()=>{
                         <div className="service-item">
                             <span className="icon">
                                 <i className="fa fa-mobile"></i>
+                             
+
                             </span>
                             <h4>Responsive Design</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
+                            <p>Compatible tous supports, tablette & application mobile.
+
+.</p>
                         </div>
                     </div>
-                    <div className={animIcon2}>
                     
-                        <div className="service-item">
-                            <span className="icon">
-                                <i className="fa fa-rocket"></i>
-                            </span>
-                            <h4>Branding Identity</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-                        </div>
-                    </div>
-                    <div className={animIcon2}>
-                        
-                        <div className="service-item">
-                            <span className="icon">
-                                <i className="fas fa-pencil-alt"></i>
-                            </span>
-                            <h4>Creative Design</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-                        </div>
-                    </div>
-                    <div className={animIcon2}>
-                        
-                        <div className="service-item">
-                            <span className="icon">
-                                <i className="fas fa-life-ring"></i>
-                            </span>
-                            <h4>Support</h4>
-                            <p>Lorem Ipsum is simply dummy text of the Lorem has been the industry's standard dummy text ever.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
        </section>

@@ -26,7 +26,7 @@ return (
 
     <nav className={"navbar navbar-expand-lg bounce "+ etat }>
       <div className="container">
-        <a className={"navbar-brand "+colorText} href="#">ISMAEL</a>
+        <a className={"navbar-brand "+colorText} href="#">PORTFOLIO WALA</a>
         <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -42,7 +42,7 @@ return (
               <a className={"nav-link "+colorText} href="#services">Services</a>
             </li>
             <li className="nav-item">
-              <a className={"nav-link "+colorText} href="#" >Projects</a>
+              <a className={"nav-link "+colorText} href="#project" >Projects</a>
             </li>
             <li className="nav-item">
               <a className={"nav-link "+colorText} href="#contact" >Contact</a>
